@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class TasksService {
-  private tasks = [];
+  private tasks = ["andi"];
 
   getAllTasks() {
     return this.tasks;
